@@ -10,7 +10,7 @@ public interface GameDao {
     void insert(Game game);
     void update(Game game);
     void deleteById(Integer id);
-    Game findByid(Integer id);
+    Game findById(Integer id);
     List<Game> findAll();
 
     List<Game> findByStudio(Studio studio);

@@ -6,5 +6,6 @@ public enum Genre {
     COMEDY,
     DRAMA,
     FANTASY,
-    HORROR
+    HORROR,
+    SPORT
 }
