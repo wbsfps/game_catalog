@@ -41,8 +41,8 @@ public class GameProgram {
         gameDao.update(game);
         System.out.println("Update Completed!");
 
-//        System.out.println("--- Test 6 - Delete game ---");
-//        gameDao.deleteById(9);
-//        System.out.println("Delete completed!");
+        System.out.println("--- Test 6 - Delete game ---");
+        gameDao.deleteById(9);
+        System.out.println("Delete completed!");
     }
 }
